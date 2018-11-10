@@ -75,7 +75,7 @@ router.post('/login', (req, res, next) => {
                 res.json({
                     success: true,
                     message: 'Enjoy your token',
-                    toke: token
+                    token: token
                 });
             }
 
