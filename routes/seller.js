@@ -5,10 +5,14 @@ const aws = require('aws-sdk');
 const multer = require('multer');
 const multerS3 = require('multer-s3');
 const s3 = new aws.S3({
-    accessKeyId: "AKIAIIPE5NAM4PUW7NSA",
-    secretAccessKey: "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"
+    accessKeyId: "",
+    secretAccessKey: ""
 });
+//AKIAIIPE5
+//NAM4PUW7NSA
 
+//ibKfzBa0FA2IJ+ur5
+//q3MGs3WjIU7LXYrkHs3N3MM
 const faker=require('faker');
 
 const checkJWT = require('../middlewares/check-jwt');
